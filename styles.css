@@ -679,26 +679,23 @@ body.gpmn-base-load {
     }
 }
 
-/* Đặt nền đen cho toàn bộ trang */
 body {
-    background-color:  #191B24; /* Nền đen */
-    color: white; /* Chữ màu trắng để dễ đọc trên nền đen */
-    font-family: Arial, sans-serif; /* Chọn phông chữ dễ đọc */
+    background-color:  #191B24; 
+    color: white; 
+    font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
 }
 
 #h1-text {
-    color: rgb(255, 255, 255); /* Đảm bảo màu chữ cho các phần văn bản */
+    color: rgb(255, 255, 255);
 }
 
-/* Trung tâm hóa nội dung */
 .text-center {
     text-align: center;
     color: rgb(255, 255, 255);
 }
 
-/* Logo cố định góc trái trên */
 #corner-logo {
     position: fixed;
     top: 10px;
@@ -713,9 +710,6 @@ body {
     opacity: 0.95;
 }
 
-
-
-/* Đảm bảo bản quyền ở dưới cùng trang */
 #copyright-footer {
     position: fixed;
     bottom: 0;
@@ -727,7 +721,7 @@ body {
     padding: 10px 0;
     font-family: sans-serif;
     background-color: #191B24;
-    z-index: 9999; /* Đảm bảo không bị che */
+    z-index: 9999;
 }
 
 
